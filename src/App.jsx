@@ -426,6 +426,7 @@ export default function App() {
         <button onClick={() => navigateDay(-1)} style={{ background: "#1e2a4a", border: "none", borderRadius: 8, width: 34, height: 34, color: "#60a5fa", fontSize: 16, cursor: "pointer" }}>←</button>
         <div style={{ textAlign: "center" }}><div style={{ fontSize: 15, fontWeight: 700 }}>{formatDate(currentDate)}</div></div>
         <button onClick={() => navigateDay(1)} style={{ background: "#1e2a4a", border: "none", borderRadius: 8, width: 34, height: 34, color: "#60a5fa", fontSize: 16, cursor: "pointer" }}>→</button>
+        <a href="https://buy.stripe.com/5643234" target="_blank" rel="noopener noreferrer" style={{ background: "linear-gradient(135deg,#f59e0b,#f97316)", border: "none", borderRadius: 8, padding: "5px 10px", color: "#fff", fontSize: 11, cursor: "pointer", fontWeight: 700, textDecoration: "none", display: "flex", alignItems: "center" }}>☕ Soutenir</a>
         <button onClick={() => setCurrentDate(new Date().toISOString().split("T")[0])} style={{ background: "#1a2444", border: "1px solid #2a3a5c", borderRadius: 8, padding: "5px 10px", color: "#60a5fa", fontSize: 10, cursor: "pointer", fontWeight: 600 }}>Auj.</button>
       </div>
 
